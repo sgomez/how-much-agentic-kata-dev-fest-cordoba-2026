@@ -1,0 +1,106 @@
+import { ListPacksResponse } from "@hmk/contracts/catalog";
+import {
+  Avatar,
+  Badge,
+  Button,
+  Card,
+  Heading,
+  Screen,
+  Stack,
+  Text,
+  TopBar,
+} from "@hmk/ui";
+import { useQuery } from "@tanstack/react-query";
+import { useNavigate } from "react-router";
+
+import { api } from "./api.ts";
+import { authClient } from "./auth-client.ts";
+
+/**
+ * Scaffolding panel at `/dev`, only while the game is being built: a preview of one
+ * in-game screen per group (no director needed; change the scene in the URL), plus a
+ * system check. Nothing in the game links here; players start at `/`.
+ */
+const SCREENS = [
+  { to: "/", label: "Inicio: crear o unirse" },
+  { to: "/games/DEMO/preview/round/1", label: "Ronda (vista previa)" },
+  { to: "/games/DEMO/preview/reveal/1", label: "Resultado (vista previa)" },
+  { to: "/games/DEMO/preview/voting/1", label: "Votación (vista previa)" },
+] as const;
+
+const CatalogStatus = () => {
+  const { data, isError, isPending } = useQuery({
+    queryKey: ["catalog", "packs"],
+    queryFn: async () => ListPacksResponse.parse(await api("/catalog/packs")),
+  });
+  if (isPending) {
+    return <Badge icon="refresh">Comprobando el catálogo…</Badge>;
+  }
+  if (isError) {
+    return (
+      <Badge tone="danger" icon="alert">
+        El catálogo no responde
+      </Badge>
+    );
+  }
+  return (
+    <Badge tone="success" icon="check">
+      Catálogo conectado: {data.packs.length} packs de preguntas
+    </Badge>
+  );
+};
+
+export const DevPage = () => {
+  const navigate = useNavigate();
+  const { data: session } = authClient.useSession();
+  const player = session?.user;
+  return (
+    <Screen
+      top={
+        <TopBar
+          trailing={
+            player === undefined ? null : (
+              <Stack direction="row" gap={2} align="center">
+                <Text size="sm">{player.name}</Text>
+                <Avatar player={player} size="sm" />
+              </Stack>
+            )
+          }
+        />
+      }
+    >
+      <Stack gap={6}>
+        <Stack gap={2}>
+          <Heading level={1} size="display">
+            Panel de desarrollo
+          </Heading>
+          <Text tone="muted">
+            Solo mientras construís el juego. Se juega desde el inicio.
+          </Text>
+        </Stack>
+        <Card>
+          <Stack gap={3}>
+            <Heading level={2}>Pantallas</Heading>
+            {SCREENS.map((screen) => (
+              <Button
+                key={screen.to}
+                variant="secondary"
+                fullWidth
+                icon="chevron-right"
+                onClick={() => navigate(screen.to)}
+              >
+                {screen.label}
+              </Button>
+            ))}
+          </Stack>
+        </Card>
+        <Stack gap={2}>
+          <Text tone="muted" size="sm">
+            Estado del sistema:
+          </Text>
+          <CatalogStatus />
+        </Stack>
+      </Stack>
+    </Screen>
+  );
+};

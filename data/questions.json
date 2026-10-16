@@ -1,0 +1,542 @@
+[
+  {
+    "id": "geografia-01",
+    "text": "¿Cuántos municipios hay en España, incluidas Ceuta y Melilla?",
+    "unit": "municipios",
+    "solution": 8132,
+    "pack": "geografia",
+    "min": 1,
+    "max": 100000
+  },
+  {
+    "id": "geografia-02",
+    "text": "¿Cuál es la superficie total de Rusia?",
+    "unit": "km²",
+    "solution": 17125190,
+    "pack": "geografia",
+    "min": 10000,
+    "max": 1000000000
+  },
+  {
+    "id": "geografia-03",
+    "text": "¿Cuántos habitantes tenía Islandia en 2024?",
+    "unit": "habitantes",
+    "solution": 386506,
+    "pack": "geografia",
+    "min": 1000,
+    "max": 100000000
+  },
+  {
+    "id": "geografia-04",
+    "text": "¿Qué porcentaje de la superficie de España era bosque en 2024?",
+    "unit": "%",
+    "solution": 38.2,
+    "pack": "geografia",
+    "min": 0,
+    "max": 100
+  },
+  {
+    "id": "geografia-05",
+    "text": "¿Cuál es la altitud del Mulhacén, el pico más alto de la península ibérica?",
+    "unit": "m",
+    "solution": 3479,
+    "pack": "geografia",
+    "min": 0,
+    "max": 9000
+  },
+  {
+    "id": "geografia-06",
+    "text": "¿Qué porcentaje de la población española vivía en zonas urbanas en 2024?",
+    "unit": "%",
+    "solution": 80.3,
+    "pack": "geografia",
+    "min": 0,
+    "max": 100
+  },
+  {
+    "id": "geografia-07",
+    "text": "¿Cuántos habitantes por km² tenía Australia en 2024?",
+    "unit": "hab./km²",
+    "solution": 3.54,
+    "pack": "geografia",
+    "min": 0,
+    "max": 20
+  },
+  {
+    "id": "geografia-08",
+    "text": "¿Cuál es la superficie de tierra firme de Brasil?",
+    "unit": "km²",
+    "solution": 8358140,
+    "pack": "geografia",
+    "min": 1000000,
+    "max": 20000000
+  },
+  {
+    "id": "geografia-09",
+    "text": "¿Cuántos habitantes tenía Japón en 2024?",
+    "unit": "habitantes",
+    "solution": 123975371,
+    "pack": "geografia",
+    "min": 20000000,
+    "max": 400000000
+  },
+  {
+    "id": "geografia-10",
+    "text": "¿Cuántos habitantes tenía Egipto en 2024?",
+    "unit": "habitantes",
+    "solution": 116538258,
+    "pack": "geografia",
+    "min": 20000000,
+    "max": 300000000
+  },
+  {
+    "id": "ciencia-01",
+    "text": "¿A qué distancia media está la Luna de la Tierra?",
+    "unit": "km",
+    "solution": 384400,
+    "pack": "ciencia",
+    "min": 100000,
+    "max": 900000
+  },
+  {
+    "id": "ciencia-02",
+    "text": "¿Cuál es la temperatura efectiva de la superficie del Sol?",
+    "unit": "K",
+    "solution": 5772,
+    "pack": "ciencia",
+    "min": 1000,
+    "max": 20000
+  },
+  {
+    "id": "ciencia-03",
+    "text": "¿Cuánto dura un día en Marte (rotación respecto a las estrellas)?",
+    "unit": "horas",
+    "solution": 24.66,
+    "pack": "ciencia",
+    "min": 10,
+    "max": 60
+  },
+  {
+    "id": "ciencia-04",
+    "text": "¿Cuál es el diámetro ecuatorial de Júpiter?",
+    "unit": "km",
+    "solution": 142984,
+    "pack": "ciencia",
+    "min": 20000,
+    "max": 400000
+  },
+  {
+    "id": "ciencia-05",
+    "text": "¿Cuántos exoplanetas confirmados había catalogados por la NASA en octubre de 2026?",
+    "unit": "planetas",
+    "solution": 6445,
+    "pack": "ciencia",
+    "min": 500,
+    "max": 20000
+  },
+  {
+    "id": "ciencia-06",
+    "text": "¿Cuál fue la concentración media global de CO2 en la atmósfera en 2024?",
+    "unit": "ppm",
+    "solution": 422.79,
+    "pack": "ciencia",
+    "min": 250,
+    "max": 800
+  },
+  {
+    "id": "ciencia-07",
+    "text": "¿A qué velocidad viaja la luz en el vacío?",
+    "unit": "m/s",
+    "solution": 299792458,
+    "pack": "ciencia",
+    "min": 1000,
+    "max": 100000000000
+  },
+  {
+    "id": "ciencia-08",
+    "text": "¿Cuánta masa tiene la Estación Espacial Internacional?",
+    "unit": "kg",
+    "solution": 419725,
+    "pack": "ciencia",
+    "min": 50000,
+    "max": 1000000
+  },
+  {
+    "id": "ciencia-09",
+    "text": "Según el satélite Planck, ¿qué edad tiene el Universo?",
+    "unit": "miles de millones de años",
+    "solution": 13.82,
+    "pack": "ciencia",
+    "min": 1,
+    "max": 60
+  },
+  {
+    "id": "ciencia-10",
+    "text": "¿Cuál es la masa del Sol?",
+    "unit": "kg",
+    "solution": 1.9884e30,
+    "pack": "ciencia",
+    "min": 100000000000000000000,
+    "max": 1e40
+  },
+  {
+    "id": "historia-01",
+    "text": "¿Cuántos artículos tiene la Constitución española de 1978?",
+    "unit": "artículos",
+    "solution": 169,
+    "pack": "historia",
+    "min": 60,
+    "max": 460
+  },
+  {
+    "id": "historia-02",
+    "text": "¿Cuántos kilómetros medía el Muro de Berlín en total, rodeando Berlín Oeste?",
+    "unit": "km",
+    "solution": 155,
+    "pack": "historia",
+    "min": 20,
+    "max": 420
+  },
+  {
+    "id": "historia-03",
+    "text": "¿Cuántos millones de habitantes contó el censo de España de 1900?",
+    "unit": "millones de habitantes",
+    "solution": 18.83,
+    "pack": "historia",
+    "min": 0,
+    "max": 80
+  },
+  {
+    "id": "historia-04",
+    "text": "¿Cuántas horas estuvieron Armstrong y Aldrin sobre la superficie de la Luna en la misión Apolo 11?",
+    "unit": "horas",
+    "solution": 21.6,
+    "pack": "historia",
+    "min": 2,
+    "max": 100
+  },
+  {
+    "id": "historia-05",
+    "text": "¿Cuántos metros mide el perímetro de la muralla de Ávila?",
+    "unit": "metros",
+    "solution": 2516,
+    "pack": "historia",
+    "min": 500,
+    "max": 7000
+  },
+  {
+    "id": "historia-06",
+    "text": "¿Cuántos metros medía el cohete Saturno V que llevó al hombre a la Luna?",
+    "unit": "metros",
+    "solution": 111,
+    "pack": "historia",
+    "min": 20,
+    "max": 400
+  },
+  {
+    "id": "historia-07",
+    "text": "¿En qué año se puso la primera piedra de la Sagrada Familia de Barcelona?",
+    "unit": "año",
+    "solution": 1882,
+    "pack": "historia",
+    "min": 1500,
+    "max": 2000
+  },
+  {
+    "id": "historia-08",
+    "text": "¿Cuántos millones de habitantes contó el censo de España de 1991?",
+    "unit": "millones de habitantes",
+    "solution": 38.87,
+    "pack": "historia",
+    "min": 10,
+    "max": 120
+  },
+  {
+    "id": "historia-09",
+    "text": "¿Cuántos arcos tiene el acueducto romano de Segovia?",
+    "unit": "arcos",
+    "solution": 167,
+    "pack": "historia",
+    "min": 50,
+    "max": 450
+  },
+  {
+    "id": "historia-10",
+    "text": "¿Cuántas fuentes tiene el Real Monasterio de El Escorial?",
+    "unit": "fuentes",
+    "solution": 88,
+    "pack": "historia",
+    "min": 10,
+    "max": 300
+  },
+  {
+    "id": "cuerpo-humano-01",
+    "text": "¿Cuál era la esperanza de vida al nacer en España en 2024?",
+    "unit": "años",
+    "solution": 84.01,
+    "pack": "cuerpo-humano",
+    "min": 40,
+    "max": 100
+  },
+  {
+    "id": "cuerpo-humano-02",
+    "text": "¿Qué porcentaje de adultos en España tenía obesidad en 2023?",
+    "unit": "%",
+    "solution": 15.2,
+    "pack": "cuerpo-humano",
+    "min": 0,
+    "max": 80
+  },
+  {
+    "id": "cuerpo-humano-03",
+    "text": "¿Qué porcentaje de la población española de 15 años o más fumaba a diario en 2023?",
+    "unit": "%",
+    "solution": 16.6,
+    "pack": "cuerpo-humano",
+    "min": 0,
+    "max": 100
+  },
+  {
+    "id": "cuerpo-humano-04",
+    "text": "¿Qué porcentaje de adultos en España tenía sobrepeso (sin llegar a obesidad) en 2023?",
+    "unit": "%",
+    "solution": 39.8,
+    "pack": "cuerpo-humano",
+    "min": 0,
+    "max": 100
+  },
+  {
+    "id": "cuerpo-humano-05",
+    "text": "¿Cuánto medía Robert Wadlow, el hombre más alto de la historia?",
+    "unit": "cm",
+    "solution": 272,
+    "pack": "cuerpo-humano",
+    "min": 120,
+    "max": 520
+  },
+  {
+    "id": "cuerpo-humano-06",
+    "text": "¿Cuánto miden en total las uñas de ambas manos de Diana Armstrong, récord Guinness?",
+    "unit": "cm",
+    "solution": 1306.58,
+    "pack": "cuerpo-humano",
+    "min": 100,
+    "max": 3000
+  },
+  {
+    "id": "cuerpo-humano-07",
+    "text": "¿Cuántos minutos aguantó sin respirar Vitomir Maričić en su récord Guinness de 2025?",
+    "unit": "minutos",
+    "solution": 29.05,
+    "pack": "cuerpo-humano",
+    "min": 5,
+    "max": 90
+  },
+  {
+    "id": "cuerpo-humano-08",
+    "text": "¿Cuántos nacimientos se registraron en España en 2024?",
+    "unit": "nacimientos",
+    "solution": 318005,
+    "pack": "cuerpo-humano",
+    "min": 1,
+    "max": 10000000
+  },
+  {
+    "id": "cuerpo-humano-09",
+    "text": "¿Cuántos trasplantes de órganos se hicieron en España en 2024?",
+    "unit": "trasplantes",
+    "solution": 6464,
+    "pack": "cuerpo-humano",
+    "min": 1,
+    "max": 1000000
+  },
+  {
+    "id": "cuerpo-humano-10",
+    "text": "¿Cuántos donantes de órganos fallecidos hubo por millón de habitantes en España en 2024?",
+    "unit": "por millón",
+    "solution": 52.6,
+    "pack": "cuerpo-humano",
+    "min": 0,
+    "max": 200
+  },
+  {
+    "id": "deporte-01",
+    "text": "¿Cuántos segundos tardó Usain Bolt en su récord mundial de 100 metros lisos?",
+    "unit": "segundos",
+    "solution": 9.58,
+    "pack": "deporte",
+    "min": 5,
+    "max": 20
+  },
+  {
+    "id": "deporte-02",
+    "text": "¿Cuántos minutos tarda el récord mundial masculino de maratón, marcado en Londres en 2026?",
+    "unit": "minutos",
+    "solution": 119.5,
+    "pack": "deporte",
+    "min": 60,
+    "max": 300
+  },
+  {
+    "id": "deporte-03",
+    "text": "¿Cuántos centímetros mide el récord mundial femenino de salto de longitud al aire libre?",
+    "unit": "cm",
+    "solution": 752,
+    "pack": "deporte",
+    "min": 500,
+    "max": 1200
+  },
+  {
+    "id": "deporte-04",
+    "text": "¿Cuántos centímetros mide el récord mundial masculino de salto de altura al aire libre?",
+    "unit": "cm",
+    "solution": 245,
+    "pack": "deporte",
+    "min": 150,
+    "max": 400
+  },
+  {
+    "id": "deporte-05",
+    "text": "¿Cuántas Copas de Europa o Champions ha ganado el Real Madrid (hasta 2026)?",
+    "unit": "títulos",
+    "solution": 15,
+    "pack": "deporte",
+    "min": 0,
+    "max": 40
+  },
+  {
+    "id": "deporte-06",
+    "text": "¿Cuántos goles se marcaron en el Mundial de fútbol de Catar 2022?",
+    "unit": "goles",
+    "solution": 172,
+    "pack": "deporte",
+    "min": 50,
+    "max": 400
+  },
+  {
+    "id": "deporte-07",
+    "text": "¿Cuántos kilómetros suma el recorrido del Tour de Francia 2026?",
+    "unit": "kilómetros",
+    "solution": 3320.7,
+    "pack": "deporte",
+    "min": 1500,
+    "max": 6500
+  },
+  {
+    "id": "deporte-08",
+    "text": "¿Cuántas licencias deportivas federadas había en España en 2025?",
+    "unit": "licencias",
+    "solution": 4381174,
+    "pack": "deporte",
+    "min": 10000,
+    "max": 1000000000
+  },
+  {
+    "id": "deporte-09",
+    "text": "¿Qué porcentaje de las licencias federadas de fútbol en España eran de mujeres en 2025?",
+    "unit": "%",
+    "solution": 10,
+    "pack": "deporte",
+    "min": 0,
+    "max": 60
+  },
+  {
+    "id": "deporte-10",
+    "text": "¿Cuántas licencias federadas de pádel había en España en 2025?",
+    "unit": "licencias",
+    "solution": 117508,
+    "pack": "deporte",
+    "min": 1000,
+    "max": 100000000
+  },
+  {
+    "id": "cultura-01",
+    "text": "¿Cuántos millones de personas visitaron el Louvre en 2024?",
+    "unit": "millones de visitantes",
+    "solution": 8.74,
+    "pack": "cultura",
+    "min": 3,
+    "max": 25
+  },
+  {
+    "id": "cultura-02",
+    "text": "¿Por cuántos millones de dólares se vendió el Salvator Mundi de Leonardo en 2017?",
+    "unit": "millones de dólares",
+    "solution": 450.3,
+    "pack": "cultura",
+    "min": 100,
+    "max": 1200
+  },
+  {
+    "id": "cultura-03",
+    "text": "¿Cuánto ha recaudado Avatar (2009) en todo el mundo, en miles de millones de dólares?",
+    "unit": "miles de millones de dólares",
+    "solution": 2.92,
+    "pack": "cultura",
+    "min": 0.5,
+    "max": 10
+  },
+  {
+    "id": "cultura-04",
+    "text": "¿Cuántos sitios de España están en la lista del Patrimonio Mundial de la UNESCO (2025)?",
+    "unit": "sitios",
+    "solution": 50,
+    "pack": "cultura",
+    "min": 20,
+    "max": 120
+  },
+  {
+    "id": "cultura-05",
+    "text": "¿Cuántos libros se inscribieron con ISBN en España en 2024?",
+    "unit": "libros",
+    "solution": 89347,
+    "pack": "cultura",
+    "min": 10,
+    "max": 1000000
+  },
+  {
+    "id": "cultura-06",
+    "text": "¿Cuántos metros mide el Burj Khalifa, el edificio más alto del mundo?",
+    "unit": "metros",
+    "solution": 828,
+    "pack": "cultura",
+    "min": 300,
+    "max": 2000
+  },
+  {
+    "id": "cultura-07",
+    "text": "¿Cuántos museos y colecciones museográficas hay censados en España (directorio de 2022)?",
+    "unit": "instituciones",
+    "solution": 1522,
+    "pack": "cultura",
+    "min": 500,
+    "max": 4000
+  },
+  {
+    "id": "cultura-08",
+    "text": "¿Cuántos metros cuadrados ocupa en total el Louvre, el mayor museo de arte del mundo?",
+    "unit": "metros cuadrados",
+    "solution": 360000,
+    "pack": "cultura",
+    "min": 100000,
+    "max": 1000000
+  },
+  {
+    "id": "cultura-09",
+    "text": "¿Cuántos escritores en lengua española han ganado el Nobel de Literatura hasta 2025?",
+    "unit": "escritores",
+    "solution": 11,
+    "pack": "cultura",
+    "min": 0,
+    "max": 40
+  },
+  {
+    "id": "cultura-10",
+    "text": "¿Cuántas salas de cine había en España en 2024?",
+    "unit": "salas",
+    "solution": 3566,
+    "pack": "cultura",
+    "min": 1500,
+    "max": 9000
+  }
+]

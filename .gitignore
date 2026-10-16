@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-types/
+storybook-static/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
