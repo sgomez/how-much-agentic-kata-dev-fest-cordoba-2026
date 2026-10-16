@@ -26,4 +26,4 @@ The question bank. It knows every question, groups them in packs, and remembers 
 
 ### Borrowed terms
 
-**Game**: Not defined here. The catalog only receives a game's identifier to keep one deck per game. See the [games glossary](../games/GLOSSARY.md) (before the plenary, the [game glossary draft](../../docs/game-glossary-draft.md)).
+**Game**: Not defined here. The catalog only receives a game's identifier to keep one deck per game. See the [games glossary](../games/GLOSSARY.md).

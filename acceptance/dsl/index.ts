@@ -140,7 +140,7 @@ export const newGame = async ({
     estimate: async (estimates) => {
       await Promise.all(
         Object.entries(estimates).map(([alias, value]) =>
-          drivers.scoring.estimate(playerNamed(players, alias), code, value)
+          drivers.rounds.estimate(playerNamed(players, alias), code, value)
         )
       );
     },

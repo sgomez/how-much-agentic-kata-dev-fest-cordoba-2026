@@ -7,7 +7,7 @@ This repo is **multi-context**: one context per service.
 ## Before exploring, read these
 
 - **`GLOSSARY-MAP.md`** at the repo root: it points at one `GLOSSARY.md` per service. Read each one relevant to the topic.
-- **`docs/game-glossary-draft.md`** (only until the end of the plenary): the shared game-level vocabulary, a **draft** the groups resolve in the plenary. Treat its open questions as open: settle them with the user (`/grill-with-docs`), then move each resolved term into the `GLOSSARY.md` of the service that owns it. When the plenary ends, each question still open moves into the `Open questions` section of the glossary of the group that decides it, and the draft is deleted.
+- Each glossary's **`Open questions`** section lists what its group still has to decide. Treat them as open: settle them with the user (`/grill-with-docs`) before building on one reading.
 - **`docs/research/`**: research notes with cited sources. `cuanto-crees-rules.md` has the rules of the original game and where this kata departs from them: facts to inform the decisions, not decisions.
 - **`docs/adr/`**: system-wide decisions. Read the ADRs that touch the area you're about to work in. A service may also keep its own decisions in `services/<service>/docs/adr/`.
 
@@ -19,7 +19,6 @@ If any of these files don't exist, **proceed silently**. Don't flag their absenc
 /
 ├── GLOSSARY-MAP.md                    ← lists the contexts and how they relate
 ├── docs/
-│   ├── game-glossary-draft.md         ← shared draft, deleted at the end of the plenary
 │   └── adr/                           ← system-wide decisions
 └── services/
     ├── catalog/
