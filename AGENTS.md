@@ -32,7 +32,7 @@ After the nickname, every player lands on `/`, the games group's home (`Patterns
 
 ## Vocabulary
 
-Domain words come from each service's `GLOSSARY.md`, listed in `GLOSSARY-MAP.md`. Before the plenary, shared game words are a draft (`docs/game-glossary-draft.md`); the plenary resolves them and deletes the draft. A question still open lives in the `Open questions` section of the glossary of the group that decides it: settle it with the user before building on one reading.
+Domain words come from each service's `GLOSSARY.md`, listed in `GLOSSARY-MAP.md`. A question still open lives in the `Open questions` section of the glossary of the group that decides it: settle it with the user before building on one reading.
 
 ## Acceptance tests
 

@@ -5,16 +5,17 @@ How Much Agentic Kata has one context per service. Each owns its vocabulary in i
 ## Contexts
 
 - [Catalog](./services/catalog/GLOSSARY.md): the question bank; draws questions for a game without repeating them
-- [Games](./services/games/GLOSSARY.md): owned by the games group
-- [Rounds](./services/rounds/GLOSSARY.md): owned by the rounds group
-- [Scoring](./services/scoring/GLOSSARY.md): owned by the scoring group
-- [Impostor](./services/impostor/GLOSSARY.md): owned by the impostor group
-
-## Shared game language (DRAFT)
-
-- [Game glossary draft](./docs/game-glossary-draft.md): words every group uses, full of open questions on purpose. Resolved in the plenary: each resolved term moves into the glossary of the context that owns it, each question still open moves into that glossary's `Open questions` section, and the draft is deleted.
+- [Games](./services/games/GLOSSARY.md): players gathered behind a code; who is in a game, who hosts it and which phase it is in
+- [Rounds](./services/rounds/GLOSSARY.md): each question played; estimates, deadline, reveal and who the impostor is
+- [Scoring](./services/scoring/GLOSSARY.md): the points every player earns per round and the scoreboard
+- [Impostor](./services/impostor/GLOSSARY.md): the vote after the reveal and its verdict
 
 ## Relationships
 
 - **Rounds → Catalog**: Rounds asks the Catalog to draw the next question of a game over HTTP (`@hmk/contracts/catalog`).
-- _The other relationships are decided by the groups during the kata. Record each one here as `**A → B**: what A asks B for`._
+- **Games → Rounds**: Games tells Rounds to start each round, with the game's players and settings, and asks it for the current round's phase.
+- **Games → Impostor**: Games asks Impostor for the phase of the vote.
+- **Impostor → Rounds**: Impostor asks Rounds who the impostor of a round is and who played it.
+- **Scoring → Rounds**: Scoring asks Rounds for each round's solution and estimates.
+- **Scoring → Impostor**: Scoring asks Impostor for each round's verdict and votes.
+- Rounds never asks Games, and Impostor never asks Scoring: the graph has no cycles (ADR-0003).

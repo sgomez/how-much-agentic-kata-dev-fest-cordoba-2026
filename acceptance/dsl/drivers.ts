@@ -88,10 +88,12 @@ export interface RoundScreen {
 export interface RoundsDriver {
   /**
    * The round on this player's screen, or null while there is none.
-   * Some of what the screen shows (such as `myEstimate`) may live in a service
-   * other than rounds; like the phone, the driver may call any public API.
+   * Some of what the screen shows may live in a service other than rounds;
+   * like the phone, the driver may call any public API.
    */
   currentRound: (player: Player, code: string) => Promise<RoundScreen | null>;
+  /** The player sets the ruler and sends their estimate. */
+  estimate: (player: Player, code: string, value: number) => Promise<void>;
 }
 
 export interface ScoreLine {
@@ -100,8 +102,6 @@ export interface ScoreLine {
 }
 
 export interface ScoringDriver {
-  /** The player sets the ruler and sends their estimate. */
-  estimate: (player: Player, code: string, value: number) => Promise<void>;
   /** The scoreboard as this player sees it. */
   scoreboard: (player: Player, code: string) => Promise<ScoreLine[]>;
 }
